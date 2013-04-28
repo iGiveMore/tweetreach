@@ -152,9 +152,9 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   neo4j
-  puma
   omniauth
   omniauth-twitter
+  puma
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   therubyrhino
