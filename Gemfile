@@ -7,7 +7,8 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'neo4j'
-
+gem 'omniauth'
+gem 'omniauth-twitter'
 gem 'jruby-openssl'
 
 gem 'puma'
