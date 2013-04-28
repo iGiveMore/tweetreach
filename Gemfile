@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3', engine: 'jruby', engine_version: '1.7.3'
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -20,6 +21,8 @@ group :assets do
   gem 'therubyrhino'
 
   gem 'uglifier', '>= 1.0.3'
+
+  gem 'twitter-bootstrap-rails', :github => 'seyhunak/twitter-bootstrap-rails'
 end
 
 gem 'jquery-rails'
