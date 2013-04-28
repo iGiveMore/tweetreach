@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @user.user_id %>
+</p>
+
+<p>
+  <b>Screen name:</b>
+  <%= @user.screen_name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.name %>
+</p>
+
+<p>
+  <b>Profile image url:</b>
+  <%= @user.profile_image_url %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @user.location %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @user.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @user.description %>
+</p>
+
+<p>
+  <b>Tweets:</b>
+  <%= @user.status_count %>
+</p>
+
+<p>
+  <b>Following:</b>
+  <%= @user.friends_count %>
+</p>
+
+<p>
+  <b>Followers:</b>
+  <%= @user.followers_count %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
